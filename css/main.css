@@ -4,10 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Mono', sans-serif;
 }
 
 body{
-    min-height: 100%;
     font-family: 'Roboto Mono', sans-serif;
     line-height: 1.5;
 }
@@ -15,6 +15,10 @@ body{
 h1{
     font-size: 1.2rem;
     letter-spacing: 0.25rem;
+}
+
+h2{
+    font-size: 1.75rem;
 }
 
 li, a{
@@ -27,13 +31,18 @@ li, a{
     color: #000;
 }
 
+nav > h1{
+    color: hsl(195, 81%, 39%);
+}
+
 nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
     padding: 1em 5em;
-    box-shadow: 0 0 1.25rem 0 #c6c6c6;
+    box-shadow: 0 0 1.5rem 0 #222;
+    background-color: white;
 }
 .nav-links{
     display: flex;
@@ -42,19 +51,43 @@ nav{
 }
 
 main{
-    min-height: calc(100vh - 3rem);
+    min-height: calc(100vh - 4rem);
     display: grid;
     place-items: center;
 }
 
-section{
-    display: grid;
-    gap: 1em;
+.container{
+    text-align: center;
 }
 
 .container h2{
+    margin-bottom: 1em;
     padding: 0.60em 1em;
-    border-radius: 15px;
+    border-radius: 0.5rem;
     background-color: #000;
     color: #dddbdb;
+}
+
+.btn{
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+
+    border: none;
+    background: none;
+    padding:  0.4em 1em;
+
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.btn:hover{
+    background: black;
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
+.btn-outline{
+    border: 2px solid black;
+    border-radius: 0.5rem;
 }
