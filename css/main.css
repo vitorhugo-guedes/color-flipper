@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Mono', sans-serif;
+    
 }
 
 body{
@@ -32,7 +33,7 @@ li, a{
 }
 
 nav > h1{
-    color: hsl(195, 81%, 39%);
+    color: #02C3BD;
 }
 
 nav{
@@ -46,8 +47,13 @@ nav{
 }
 .nav-links{
     display: flex;
-    gap: 1em;
+    gap: 2em;
     margin-right: 3em;
+}
+
+a:hover{
+    color: #02C3BD;
+    transition: all 0.3s ease;
 }
 
 main{
