@@ -42,7 +42,7 @@ nav{
     align-items: center;
     width: 100%;
     padding: 1em 5em;
-    box-shadow: 0 0 1.5rem 0 #222;
+    box-shadow: 0 0 0.5rem 0 #222;
     background-color: white;
 }
 .nav-links{
