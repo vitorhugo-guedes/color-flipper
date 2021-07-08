@@ -33,6 +33,7 @@ li, a{
 }
 
 nav > h1{
+    cursor: default;
     color: #02C3BD;
 }
 
