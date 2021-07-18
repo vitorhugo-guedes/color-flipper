@@ -24,4 +24,4 @@ Essas são as ferramentas usadas no projeto:
 
 Feito por Vitor Guedes :heart:
 
-[![Twitter Badge](https://img.shields.io/badge/-@HugoXala7-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/HugoXala7)](https://twitter.com/HugoXala7)
+[![Twitter Badge](https://img.shields.io/badge/-@VitorHgo77-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/VitorHgo77)](https://twitter.com/VitorHgo77)
