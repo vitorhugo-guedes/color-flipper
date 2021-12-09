@@ -6,7 +6,7 @@ Um gerador de cores, hexadecimais e RGB, que muda o background do site, de acord
 
 <h4>
  :link: 
- <a href="color-flipper-alpha.vercel.app">Acesse aqui</a>
+ <a href="https://color-flipper-alpha.vercel.app/">Acesse aqui</a>
 </h4>
 
 <img src="./screenshot/color-flipper.png">
